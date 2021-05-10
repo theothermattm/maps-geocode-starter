@@ -1,0 +1,14 @@
+// arbitrary array of address strings
+ADDRESS_DATA = [
+  "90210",
+  "1600 Pennsylvania Ave, Washington, DC",
+  "Spur Road, London, GB SW1A 1AA",
+];
+
+// array of lat/long pairs along with addresses if already geocoded
+GEOCODED_ADDRESSES = [
+  {
+    latLong: { lat: 42.8525821, lng: -70.94279139999999 },
+    address: "North Shore of Boston, MA",
+  },
+];

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample Geocoder / Location Mapper</title>
+    <link rel="stylesheet" href="css/maps.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bluebird@3.7.2/js/browser/bluebird.min.js"></script>
+    <script src="data/data.js"></script>
+    <script src="js/maps.js"></script>
+
+  </head>
+  <body>
+    <!--
+    <div id="floating-panel">
+      <input id="submit" type="button" value="Load Heatmap" />
+    </div>-->
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=[INSERT YOUR API KEY HERE]&callback=initMap&libraries=&v=weekly&libraries=visualization"
+      async
+    ></script>
+  </body>
+</html>
